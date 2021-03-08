@@ -1,0 +1,376 @@
+
+body{
+    margin:0;
+    height: 100%;
+    width: 100vw;
+    background-image: url(../images/robot_gear_automation.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment:fixed;
+    box-sizing:content-box;
+    overflow:auto;}
+
+
+header hgroup{
+    text-align: center;
+    background-color:#a9a9a9d4 ;
+    padding-bottom:20px;}
+header hgroup h1{
+    color: blue;font-size: 3vw;
+    margin:0;font-style: italic;
+    text-shadow:4px 12px 20px black;}
+header hgroup h2{
+    color: blue;
+    font-size: 2.8vw;
+    margin-top: 1%;
+    font-style: italic;
+    text-shadow:4px 12px 20px black;}
+
+
+
+
+
+
+
+
+
+
+
+
+div picture{
+    position: relative;
+    width: 17.1vw;
+    height: 24.1vw;}
+
+div picture img{
+    margin-right: 0;
+    position:relative;
+    width: 8vw;
+    border-radius: 12%;
+    float:left;}
+
+
+nav{
+    bottom: 42vw;
+    text-align: center;
+    display: contents;
+    background-color:#56050580 ;}
+nav ul{
+    position: relative;
+    Bottom:37px;
+    margin: 0;}
+nav ul{
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+    top:1px;}
+nav ul li{
+    position: relative;
+    font-size: 2.2vw;right:20px;
+    top:40px;
+    display:contents;
+    cursor:pointer;
+    }
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+    position: relative;
+    top: 0.5vw;
+    left: 0.5vw;
+    height: 31%;}
+.navbar{
+    position:inherit;
+    text-decoration: none;}
+
+.dropdown{
+    padding: 1.9vw;
+    opacity:0;
+    background-color:lavender;
+    padding-bottom: 4vw;
+    padding-top: 0;
+    margin-right: 0px;
+    text-align: left;
+    position:fixed;
+    z-index: 999;
+    left: 54vw;
+    width: fit-content;
+    height: 22%;
+    display:grid;}
+
+.navbar-toggler-icon{
+    font-size: 2vw;}
+    
+a{
+    color:blue;}
+
+.navbar-light .navbar-brand{
+    color: blue;
+    font-size: 1.5vw;
+    font-style: italic;
+     text-shadow:1px 6px 3px black; }
+
+
+.li{
+    font-size: 1.6vw;}
+
+
+li:hover .dropdown{
+    opacity: 1;
+    visibility: visible;}
+a:hover{
+    color:aliceblue;
+    text-decoration: none;}
+img{
+    display: block;}
+.container{
+    max-width:none}
+
+
+
+.carousel-item img{
+    width: 95%;
+    height:100%;
+    border-radius: 10%;
+    border-style: solid;}
+.carousel{
+    position:relative;
+    bottom: 10%;
+    display: block;}
+
+
+
+article{
+    width: 80%;
+    padding: 2%;
+    background-color:#b0c4dea8;
+    margin-left: 10vw;
+    display: block;
+    border-radius: 2%;}
+article .container-fluid{
+    width: auto;}
+
+@keyframes gear{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(359deg);}} 
+
+.gear1{
+    animation: rotate 2s infinite linear;
+    animation-name: gear;
+    animation-direction: reverse;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    width: 8vw;
+    position: absolute;
+    left: 65%;
+    bottom: 70%;}
+
+.gear3{
+    animation: rotate 2s infinite linear;
+    animation-name: gear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    width: 9vw;
+    position: absolute;
+    left: 54%;
+    bottom: 66%;}
+
+p{
+  font-size: 1.5vw;
+    line-height: 1.5;}
+
+ul{
+   list-style-type:none;
+    padding-left:0;
+    font-size: 1.5vw;
+    line-height: 1.5;}
+
+aside{
+   background-color:lightcyan;
+    border-radius: 2%;
+    padding: 1vw;
+    width: 20%;}
+
+h3{
+    font-size: 1.8vw;}
+
+.Skills{
+    background-color:#b0c4dea8;
+    width: 80%;
+    margin-left: 10vw;
+    border-radius: 2%;
+    padding: 0.5vw;
+    margin-top: 1vw;}
+.imagaside{
+    position: relative;
+    left: 30vw;
+    bottom: 8vw;}
+
+.dog{
+    margin-top: 3vw;
+    margin-left:0;
+    margin-right:0;
+    background-color:#b0c4dea8;}
+.cat{
+    background-color:#b0c4dea8;
+    margin-top: 3vw;
+    margin=bottom: 3vw;}
+.mouse{
+    background-color:#b0c4dea8;
+    margin-top: 3vw;
+}
+
+.html{
+    width: 10vw;}
+.css{
+    width: 10vw;}
+.bootstrap{
+    width:15vw;}
+
+.Education{
+    background-color:#b0c4dea8;
+    width: 80%;
+    margin-left: 10vw;
+    border-radius: 2%;
+    padding: 0.5vw;
+    margin-top: 1vw;}
+.Future{
+    background-color:#b0c4dea8;
+    width: 80%;
+    margin-left: 10vw;
+    border-radius: 2%;
+    padding: 0.5vw;
+    margin-top: 1vw;}
+
+
+    
+footer{
+    background-color:#a9a9a9d4;
+    text-align: center;}
+footer .footer{
+    text-decoration: none;
+    list-style-position: none;
+    display:inline-flex;}
+
+
+
+.footer li a >img{
+    width:6vw;padding-left: 7vw;
+    padding-right: 7vw;}
+
+
+.footer li a>img:hover{
+    transform:scale(1.3);}
+
+
+
+    
+
+
+
+  
+    
+@media screen and (max-width:1200px){
+    nav ul{
+        height: 8vw;}
+    .dropdown{
+        height: 18.5%;
+        z-index: 999;
+        
+    }
+    
+}  
+    
+    
+
+
+@media screen and (max-width:1000px){
+    .dropdown{
+        padding: 1.9vw;
+        opacity: 0;
+        background-color:lavender;
+        padding-bottom: 4vw;
+        padding-top: 0;
+        margin-right: 4px;
+        text-align: left;
+        position:absolute; 
+        left: 29vw;
+        top: 3vw;
+        width: fit-content;
+        display: inline-flex;
+        visibility: hidden;
+        height: 1%;}
+    
+    .dropdown li a{
+        margin-right: 20px;}
+    .dropdown:hover{
+        transform: scale(1.2);}
+    nav ul{
+        height: 10vw;}
+    div picture{
+        position:relative;
+        width: 17.1vw;
+        height: 24.1vw;} 
+
+
+    div picture img{
+        margin-right: 0;
+        position:relative;
+        width: 8vw;
+        border-radius: 12%;
+        float:left;}    
+ 
+
+@media screen and (max-width:712px){
+    
+    div picture{
+       height: 18vw;}
+    .dropdown{
+        margin-right: 0;
+        padding-right: 0.4vw;
+        padding-left: 1vw;
+        text-align: center;}
+     .dropdown li a{
+        margin-right: 14px;}
+}
+    
+    
+@media screen and (max-width:512px){
+    body{
+        background-attachment: local;}
+    .dropdown{
+        text-align: center; }
+    .dropdown li a{
+        margin-right: 4px;}
+
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
